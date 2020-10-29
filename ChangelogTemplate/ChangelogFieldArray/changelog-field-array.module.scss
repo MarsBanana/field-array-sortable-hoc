@@ -1,0 +1,30 @@
+.changelog-field-array {
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.changelog-field-form-item {
+    margin-top: 1rem;
+
+    > .top-line {
+        display: flex;
+        align-items: center;
+
+        > div {
+            margin-right: 1rem;
+        }
+
+        > ._drag-icon {
+            margin-top: 0.15625rem;
+        }
+
+        > button {
+            margin-left: 9rem;
+        }
+    }
+
+    > .bottom-line {
+        margin-left: 1.69375rem;
+        margin-top: 0.5rem;
+    }
+}

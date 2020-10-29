@@ -1,0 +1,20 @@
+.changelog-item {
+    list-style: none;
+    padding-left: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--light-blue-gray);
+    > .text {
+        margin-top: 0;
+        white-space: pre;
+        line-height: 1.5rem;
+    }
+    > .title {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    &:last-of-type {
+        border-bottom: none;
+    }
+}
